@@ -1,0 +1,29 @@
+a {
+    color: #36AE7C;
+}
+a:hover {
+    color: #219666;
+}
+
+pre {
+    height: fit-content !important;
+    margin-top: 15px;
+    border: 1px solid #ccc !important;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px !important;
+    background-color: #eee;
+    position: relative;
+}
+code {
+}
+.copy-btn{
+    position: absolute;
+    padding: 0px;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 0px;
+}
+.copy-btn:focus{
+    box-shadow: 0px 0px 0px;
+}
