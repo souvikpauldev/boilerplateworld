@@ -36,15 +36,15 @@
       
     <main class="container" style="padding-top: 70px;">
       <!-- upper area -->
-      <h2 class="text-center mt-3">HTML5 Boilerplate</h2>
-      <p class="text-center"><a href="#"><span class="badge rounded-pill bg-danger">#language</span></a></p>
-      <p class="text-center" style="color: #666;">
+      <h2 class=" mt-3">HTML5 Boilerplate</h2>
+      <p class=""><a href="#"><span class="badge rounded-pill bg-danger">#language</span></a></p>
+      <p class="" style="color: #666;">
           No more strugling for finding boilerplate codes.<br>
           <b>Just copy, paste &amp; go!</b>
       </p>
         
-      <!-- content area -->
-        <pre class="mt-3"><button class="btn copy-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Copy code" onclick="copyCode('html5-boiperplate')"><i class="fa fa-clipboard"></i></button><div style="width: 100%; overflow-x: scroll; padding: 20px 0px 20px 0px;"><code id="html5-boilerplate">&lt;!DOCTYPE html&gt;
+      <!-- code area -->
+        <pre class="mt-3"><button class="btn copy-btn" title="Copy code" onclick="copyCode('html5-boiperplate')"><i class="fa fa-clipboard"></i></button><div style="width: 100%; overflow-x: scroll; padding: 20px 0px 20px 0px;"><code id="html5-boilerplate">&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
@@ -57,7 +57,53 @@
 	&lt;script src="index.js">&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></div></pre>
+    
+    <h2>About the language&nbsp;<i class="fa fa-info-circle" style="font-size: 18px;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The description is written & paraphrased by GPT-3"></i></h2>  
+    <!-- content area -->
+    <div class="card mt-4">
+      <h5 class="card-header"><i class="fa fa-html5"></i>&nbsp;HTML5 Description</h5>
+      <div class="card-body">
+        <div class="card-text">
+            <p>HTML5 is a markup language that is used to structure and present content on the World Wide Web.</p>
+            <p>It is the fifth and current version of the HTML standard. The main goal of HTML5 is to improve the language with support for the latest multimedia and other new features while keeping it readable by humans and consistent with how computers and devices parse it. </p>
+            <p>To do this, HTML5 introduces new elements for video and audio, as well as a Canvas 2D drawing API. It also integrates scalable vector graphics (SVG) and MathML for mathematical formulas and adds new form input types such as date, time, email, URL, and search.</p>
+            
+            <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Official Wikipedia page&nbsp;<i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- developer information -->
+    <h2 class="mt-3">Development information&nbsp;<i class="fa fa-info-circle" style="font-size: 18px;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The information is verified by @boilerplateworld"></i></h2>
+    <p class="mt-3" style="color: #666;">
+        <b>Developers:</b>&nbsp;WHATWG, WWW Consortium, Wix<br>
+        <b>Released on:</b>&nbsp;22/01/2008<br>
+        <b>Type of format:</b>&nbsp;Markup language<br>
+        <b>Market share:</b>&nbsp;90.6%<br>
+    </p>
+    <hr>
+    <!-- tutorials -->
+    <h2 class="mt-3">Tutorials &amp; more&nbsp;<i class="fa fa-info-circle" style="font-size: 18px;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tutorials are verified by @boilerplateworld"></i></h2>
+    
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#en" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-globe"></i>&nbsp;English</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active pt-3 pb-3" id="en" role="tabpanel" aria-labelledby="home-tab">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU" target="_blank">HTML Tutorial for Beginners <i>(Programming with Mosh)</i>&nbsp;<i class="bi bi-arrow-up-right"></i></a></li>
+                <li><a href="https://www.youtube.com/watch?v=qz0aGYrrlhU" target="_blank">HTML Full Course: Build a Website Tutorial <i>(freecodecamp)</i>&nbsp;<i class="bi bi-arrow-up-right"></i></a></li>
+            </ul>
+        </div>
+    </div>
     </main>
+    <hr>
+    <footer>
+        <div class="container">
+            <p style="color: #666;">Made in India with <i class="fa fa-heart" style="color: #C9165D;"></i> by <a href="https://twitter.com/thesouvikpaul" target="_blank">Souvik Paul</a> for Developer Community</p>
+        </div>
+    </footer>
 
     <!-- bootstrap js cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -76,7 +122,7 @@
             $(".copy-btn").html('<i class="bi bi-check2-circle" style="color: green;"></i>');
             setTimeout(function(){
                 $(".copy-btn").html('<i class="fa fa-clipboard"></i>');
-            },1000);
+            },3000);
         }  
     </script>
   </body>
